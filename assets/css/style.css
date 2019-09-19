@@ -24,15 +24,8 @@ body {
 
 #nav a {
     text-decoration: none;
-    text-align: right;
+    display: block;
 }
-
-/* #nav::after { 
-    content: "";%
-    display: inline; 
-    clear: both;
-  } */
-
 
 #main_content {
     background-color: #ffffff;
@@ -42,14 +35,23 @@ body {
 #profilepic {
     display: inline-block;
     width: 20%;
-     /* height: 200px; */
 }
-/*  */
+
 #headings {
     color: #4aaaa5;
 }
 
+.clearfix a {
+    list-style: none;
+    width: 50px;
+    
+}
+
+#message {
+    width: calc(80% - 100px);
+    height: 200px;
+}
 #footer {
-    position: relative;
+    /* position: relative; */
     text-align: center;
 }
