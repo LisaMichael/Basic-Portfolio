@@ -1,0 +1,40 @@
+body {
+    margin-left: 200px;
+    background-image: url("../images/dust_scratches.png");
+    width: 960px;
+    text-decoration: none;
+}
+
+
+#main_header {
+ /*   display: flex;
+    flex-direction: row;
+    */
+    float:left; 
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#name { 
+    float: left;
+    background-color: #4aaaa5;
+    width: 20%;
+}
+
+#section_right {
+    color: red;
+}
+
+#main_content {
+    background-color: #ffffff;
+    color: #777777;
+}
+
+#headings {
+    color: #4aaaa5;
+}
+
+#footer {
+    position: relative;
+    text-align: center;
+}

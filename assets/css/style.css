@@ -74,21 +74,21 @@ body {
     display: table;
     clear: both;
   } */ 
-/* remmed out for first draft portfolio */
+
 ul{ width: calc((2rem + 300 px) *3);
-    height: 30px;
+    /* height: 30px; */
     /* height: calc((2rem + 300 px *3); */
 } 
 
 li{ 
     display: inline-block;
-    width: 250px;
-    height: 250px;
+    /* width: 250px; */
+    /* height: 250px; */
     size: 100%;
 }
 
 #message {
-    width: calc(80% - 100px);
+    width: calc(90% - 100px);
     height: 200px;
 }
 
