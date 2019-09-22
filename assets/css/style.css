@@ -51,10 +51,17 @@ body {
     right: 20px;
 }
 
+.nav-index {
+    border-right: 1px solid transparent;
+    border-color:#cccccc;
+}
+
+.nav-portfolio {
+    border-right: 1px solid transparent;
+    border-color:#cccccc;
+}
 #nav-url {
     margin-left: 2px;
-
-
 }
 
 #main_content {
