@@ -60,9 +60,9 @@ body {
     border-right: 1px solid transparent;
     border-color:#cccccc;
 }
-#nav-url {
+/* #nav-url {
     margin-left: 2px;
-}
+} */
 
 #main_content {
     width: 960px;
@@ -84,13 +84,28 @@ body {
 
 #profilepic {
     display: float;
+    float: left;
     position: left;
     width: 20%;
+    /* clear: both; */
+}
+
+#profilepic::after{
+    clear:left;
 }
 
 /* p {
     float: left;
 } */
+
+.ptext {
+display: inline-block;   
+padding: 10px;
+position: left;
+width: 75%;
+clear: left;
+ 
+}
 
 #headings {
     color: #4aaaa5;
