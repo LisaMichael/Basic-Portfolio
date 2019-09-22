@@ -70,6 +70,8 @@ body {
     /* border-bottom: 2px;
     border-bottom-color: #dddddd; */
     min-height: 100%;
+    /* overflow: auto; */
+    margin-bottom: 40px;
 }
 
 
@@ -79,6 +81,9 @@ body {
     width: 20%;
 }
 
+/* p {
+    float: left;
+} */
 
 #headings {
     color: #4aaaa5;
@@ -145,6 +150,7 @@ li{
 }
 
 footer {
+    position: relative;
     text-align: center;
     background-color: #666666;
     /* padding-top: 10px; */
@@ -154,4 +160,5 @@ footer {
     /* attempting to make my footer 100 percent width */
     margin-left: 0;
     width: 100%;
+    clear: both;
 }
