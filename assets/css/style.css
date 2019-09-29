@@ -236,13 +236,15 @@ footer {
         /* position: relative; */
         /* display: inline; */
         left: 0%;
-        top: 50px;
+        top: 40px;
         margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
         /* padding-top: 5px; */
         /* padding-bottom: 19px; */
         /* color: #ffffff; */
         background-color: #ffffff;
         width: 100%;
+        margin-bottom: 50px;
       
     }
     
@@ -255,14 +257,19 @@ footer {
         border-right: 1px solid transparent;
         border-color:#cccccc;
     } 
+
     .wrapper {
         width: 600px;
     }
 
     #main_content {
         width: 540px;
+       bottom:0px;
+       top: 300px;
+       margin-top: 10px;
         margin-left: 20px;
         margin-right: 20px;
+        padding-top: 20px;
         /* padding-right: 20px; */
         padding-left: 30px;
         background-color: #ffffff;
@@ -273,13 +280,15 @@ footer {
         /* border-bottom: 2px;
         border-bottom-color: #dddddd; */
         /* overflow: auto; */
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
     }
+
 
     #profilepic {
         /* display: float; */
         /* float: left; */
         position: left;
         width: 90%;
+       top: 250px;
 }
 }
