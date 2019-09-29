@@ -65,7 +65,8 @@ body {
 } */
 
 #main_content {
-    width: 960px;
+    /* width: 960px; */
+    width: 100%;
     margin-left: 200px;
     padding-right: 20px;
     padding-left: 30px;
@@ -87,16 +88,14 @@ body {
     float: left;
     position: left;
     width: 20%;
-    /* clear: both; */
+
+    clear: both;
 }
 
 #profilepic::after{
-    clear:left;
+    /* clear:left; */
 }
 
-/* p {
-    float: left;
-} */
 
 .ptext {
 display: inline-block;   
@@ -118,14 +117,10 @@ clear: left;
 }
 ul{
      width: calc((2rem + 300 px) *3);
-    /* height: 30px; */
-    /* height: calc((2rem + 300 px *3); */
 } 
 
 li{ 
     display: inline-block;
-    /* width: 250px; */
-    /* height: 250px; */
     size: 100%;
 }
 
@@ -185,24 +180,126 @@ footer {
     clear: both;
 }
 
+/*--------------------------------------- */
+/*--------------------------------------- */
+/*-------------768px--------------------- */
+/*--------------------------------------- */
+/*--------------------------------------- */
+
+
+@media screen and (max-width:768px) {
+  
+     #main_header {
+         left: 0px;
+            width: 780px;
+            margin-left: 20px;
+            font-family: 'Georgia', 'Times New Roman', Times, 'Times New Roman', serif;
+            margin-bottom: 10px
+    }  
+    
+    #headings {
+        color: #4aaaa5;
+    }
+
+    #name { 
+        
+        left: 0%;
+        margin: 0;
+        /* text-align: center; */
+        /* padding-top: 1.5%; */
+        /* padding-bottom: 19px; */
+        color: #ffffff;
+        background-color: #4aaaa5;
+        width: 100%;
+        font-family: 'Georgia', Times, serif;
+        /* padding-bottom: 19px; */
+    }
+    
+     /* #nav a {
+        position: fixed;
+        flex:space-between; 
+        content: '';
+        padding: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    } */
+    
+    #nav {
+        /* position: relative; */
+        /* display: inline; */
+        padding-bottom: 0%;
+        left: 0%;
+        top: 40px;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 19px;
+        /* color: #ffffff; */
+        background-color: #ffffff;
+        width: 760px;
+      
+    }
+    
+    .nav-index {
+        border-right: 1px solid transparent;
+        border-color:#cccccc;
+    }
+    
+    .nav-portfolio {
+        border-right: 1px solid transparent;
+        border-color:#cccccc;
+    } 
+
+    .wrapper {
+        width: 750px;
+    }
+
+    #main_content {
+        width: 650px;
+       bottom:0px;
+       top: 300px;
+       margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+        /* padding-right: 20px; */
+        padding-left: 30px;
+        background-color: #ffffff;
+        color: #777777;
+        /* border-width: 10px; */
+        border-bottom-color: #dddddd;
+        font-family: Arial, 'Helvetica Neue' Helvetica, sans-serif;
+        /* border-bottom: 2px;
+        border-bottom-color: #dddddd; */
+        /* overflow: auto; */
+        /* margin-bottom: 40px; */
+    }
+
+
+    #profilepic {
+        /* display: float; */
+        /* float: left; */
+        position: left;
+        width: 90%;
+       top: 250px;
+}
+}
+
+/*--------------------------------------- */
+/*--------------------------------------- */
+/*-------------640px---------------------- */
+/*--------------------------------------- */
+/*--------------------------------------- */
+
 @media screen and (max-width:640px) {
   
   
  
-    /* text-align: center;
-       
-        
-        margin-right: 20px;
-        height: 60px;
-        position: relative;
-        background-color: #ffffff;
-        
-        border-bottom-color: #cccccc;
-        border:  2px;
-        font-family: 'Georgia', 'Times New Roman', Times, 'Times New Roman', serif; */
+   
      #main_header {
             width: 640px;
             margin-left: 20px;
+            font-family: 'Georgia', 'Times New Roman', Times, 'Times New Roman', serif;
+            margin-bottom: 10px
     }  
     
     #headings {
@@ -239,12 +336,10 @@ footer {
         top: 40px;
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        /* padding-top: 5px; */
-        /* padding-bottom: 19px; */
+        margin-bottom: 19px;
         /* color: #ffffff; */
         background-color: #ffffff;
         width: 100%;
-        margin-bottom: 50px;
       
     }
     
@@ -269,7 +364,7 @@ footer {
        margin-top: 10px;
         margin-left: 20px;
         margin-right: 20px;
-        padding-top: 20px;
+        padding-top: 10px;
         /* padding-right: 20px; */
         padding-left: 30px;
         background-color: #ffffff;
@@ -292,3 +387,5 @@ footer {
        top: 250px;
 }
 }
+
+
